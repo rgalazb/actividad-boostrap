@@ -1,31 +1,36 @@
-#logonav {
-  position: absolute;
-  left: 100px;
-  height: 5%;
-}
-.jumbotron1 {
+
+#slide1 {
   background-image: url("../img/bg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
   height: 100vh;
 }
 
-.jumbosecondary {
-  margin: 5%;
+#slide2 {
+  background-image: url("../img/bg22.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
+
+#slide3 {
+  background-image: url("../img/bg33.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 30;
+  z-index: 30;
+
+}
+
 .margen {
   margin: 10px;
   margin-bottom: 20px;
-}
-.nav-item a {
-  color: white;
-}
-
-#jumbocontent {
-  position: relative;
-  top: 70px;
-  text-align: center;
 }
 .centro {
   text-align: center;
@@ -33,4 +38,16 @@
 footer {
   background: black;
   color: white;
+}
+
+.nav-item {
+  margin-top: 30px;
+}
+#logo-brand {
+  margin-right: 799px;
+  margin-left: 100px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 35vh;
 }
